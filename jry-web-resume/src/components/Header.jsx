@@ -1,5 +1,6 @@
 import "./Header.css";
 import { contactInfo, summaryState } from "../data/data";
+import { useNavigate } from "react-router-dom";
 function Header() {
   const cumcom = [
     "Bug is love",
@@ -7,7 +8,25 @@ function Header() {
     "What did I write on?",
     "Create 1 hr, Fix a bug 2 days",
   ];
-  const navMenu = ["GITHUB", "MEDIUM", "INSTRAGRAM", "EMAIL"];
+  // const navigate = useNavigate();
+  const navMenu = [
+    {
+      name: "GITHUB",
+      icon: "../../public/github.png",
+      link: "https://github.com/JIRAYUTRPY",
+    },
+    {
+      name: "MEDIUM",
+      icon: "../../public/medium.png",
+      link: "https://medium.com/@jirayutroodprayun",
+    },
+    {
+      name: "INSAGRAM",
+      icon: "../../public/instagram.png",
+      link: "https://www.instagram.com/_jirayut/",
+    },
+    { name: "EMAIL", icon: "../../public/email.png", link: "" },
+  ];
   return (
     <div className="Header">
       <div className="nav">
@@ -17,8 +36,13 @@ function Header() {
         <div className="nav-menu">
           {navMenu.map((value, index) => {
             return (
-              <div className="nav-button" key={index} link="facebook.com">
-                {value}
+              <div
+                className="nav-button"
+                key={index}
+                onClick={() => window.location.replace(value.link)}
+              >
+                <img src={value.icon} />
+                {value.name}
               </div>
             );
           })}

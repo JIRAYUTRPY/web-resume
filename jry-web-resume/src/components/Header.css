@@ -42,7 +42,9 @@
   color: #9288f8;
   font-size: 1.5rem;
 }
-
+.nav-button > img {
+  width: 26px;
+}
 .landing-content {
   display: flex;
   width: 100%;
