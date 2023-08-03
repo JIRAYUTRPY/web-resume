@@ -7,8 +7,8 @@ export const contactInfo = {
 
 export const summaryState = {
   mainContent:
-    "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sint veniam ratione odit. Dolor corrupti sit quas eligendi eos illo aliquid, tempore explicabo commodi deleniti hic, maiores perferendis laborum consectetur omnis?",
-  landingSection: `I'm a Developer Trainee in TechUp. \n Love to learn new thing. App chop tor but tor mai ru chop kin namtok chop pai morlum chop drink alcohol mak mak roey.`,
+    "I'm `FOLK` that my nickname. Now I'm a Developer trainee in TechUp. Before I come to be full-stack, I'm firmware engineer. But it's too hard to learn every my mistake is money. then i move in full-stack developer.",
+  landingSection: `Someday I woke up in the morning then I made breakfast and buy some coffee. After that I sitdown on table and Open VSCode for coding. Yes I remember about code that I written in yesterdays.`,
 };
 
 export const workExp = {

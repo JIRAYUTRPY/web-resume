@@ -19,8 +19,8 @@ function About() {
       <div className="about-info">
         <div className="about-content">
           <h2>About</h2>
-          <h1>Why You Hire Me!</h1>
-          <h4>{summaryState.landingSection}</h4>
+          <h1>journey</h1>
+          <h3>{summaryState.mainContent}</h3>
         </div>
         <div className="performance">
           <div className="skills">
@@ -33,6 +33,7 @@ function About() {
                     key={index}
                     id={index + 1}
                     onClick={changeIcon}
+                    onMouseOver={changeIcon}
                   >
                     <img
                       src={logoSrc[value].dark}

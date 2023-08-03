@@ -1,11 +1,19 @@
+@import url("https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@100&family=Kodchasan:wght@200&display=swap");
+@font-face {
+  font-family: "brand";
+  src: url("./fonts/JosefinSans-Regular.ttf"), format("truetype");
+}
 :root {
-  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  /* font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif; */
+  font-family: "Josefin Sans", sans-serif, "brand";
+  font-family: "Kodchasan", sans-serif, "brand";
   line-height: 1.5;
   font-weight: 400;
 
-  color: #f8d7f9;
-  background-color: #1a041b;
-
+  /* color: #f8d7f9;
+  background-color: #1a041b; */
+  background-color: #f9f9f9;
+  color: black;
   font-synthesis: none;
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
