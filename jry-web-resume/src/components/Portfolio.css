@@ -1,0 +1,29 @@
+.portfolio {
+  margin-top: 60px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  width: 100%;
+}
+
+.port-detail {
+  width: 100%;
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+}
+
+.port-child {
+}
+
+.port-head {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.port-head > h2,
+.port-head > h1 {
+  margin: 0px;
+  margin-bottom: 10px;
+}

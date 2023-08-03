@@ -32,7 +32,7 @@ export const education = {
 };
 
 export const skills = {
-  programming: ["HTML", "CSS", "JavaScript", "React", "C", "C++", "Python"],
+  programming: ["html", "css", "javascript", "react", "c", "cplus", "python"],
   tools: ["Git (Version Control)", "Microcontroller IDE"],
   knowlagde: {
     microcontroller: ["Arduino", "Texas Insrtument", "STM", "ESP"],
