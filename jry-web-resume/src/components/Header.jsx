@@ -12,20 +12,20 @@ function Header() {
   const navMenu = [
     {
       name: "GITHUB",
-      icon: "../../public/github.png",
+      icon: "../src/assets/github.png",
       link: "https://github.com/JIRAYUTRPY",
     },
     {
       name: "MEDIUM",
-      icon: "../../public/medium.png",
+      icon: "../src/assets/medium.png",
       link: "https://medium.com/@jirayutroodprayun",
     },
     {
       name: "INSAGRAM",
-      icon: "../../public/instagram.png",
+      icon: "../src/assets/instagram.png",
       link: "https://www.instagram.com/_jirayut/",
     },
-    { name: "EMAIL", icon: "../../public/email.png", link: "" },
+    { name: "EMAIL", icon: "../src/assets/email.png", link: "" },
   ];
   return (
     <div className="Header">
@@ -68,11 +68,13 @@ function Header() {
         </div>
         <div className="self-img">
           <img
-            src="../../public/MYPIC.png"
+            src="../src/assets/MYPIC.png"
             onMouseOver={(e) =>
-              (e.currentTarget.src = "../../public/MYPIC-COLOR.png")
+              (e.currentTarget.src = "../src/assets/MYPIC-COLOR.png")
             }
-            onMouseOut={(e) => (e.currentTarget.src = "../../public/MYPIC.png")}
+            onMouseOut={(e) =>
+              (e.currentTarget.src = "../src/assets/MYPIC.png")
+            }
           />
         </div>
         <div className="social-media"></div>
