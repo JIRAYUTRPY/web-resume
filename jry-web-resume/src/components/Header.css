@@ -86,6 +86,7 @@
 }
 
 .self-img {
+  width: auto;
   flex: 1;
   /* background-color: violet; */
 }
@@ -126,8 +127,9 @@
   transform: scale(1.1);
 }
 
-.self-img img {
-  height: 32rem;
+.self-img > img {
+  width: auto;
+  max-width: 32rem;
   border: 0;
   border-radius: 30%;
   transition: transform 0.2s;

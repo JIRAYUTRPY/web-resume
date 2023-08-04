@@ -1,0 +1,112 @@
+@media only screen and (max-width: 920px) {
+  .nav-menu {
+    display: none;
+  }
+  .nav {
+    justify-content: center;
+  }
+  .landing-content {
+    flex-direction: column-reverse;
+    width: 100%;
+
+    margin-top: 10px;
+  }
+
+  .landing-content > .content {
+    /* flex: 0; */
+    /* width: 100%;
+    padding: 1rem; */
+    margin: 0px;
+    /* background-color: antiquewhite; */
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+  }
+
+  .content > h4 {
+    margin-bottom: 30px;
+    padding: 15px;
+  }
+  .rotation-text {
+    height: 3rem;
+    line-height: 1.2em;
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+    text-align: start;
+    color: #9288f8;
+    margin-top: 50px;
+  }
+
+  .rotation-text > span {
+    position: absolute;
+    top: 0;
+    animation: slide 10s infinite;
+    padding-left: 10px;
+  }
+
+  @keyframes slide {
+    0% {
+      top: 0;
+    }
+    15% {
+      top: -1.2em;
+    }
+    30% {
+      top: -2.4em;
+    }
+    45% {
+      top: -3.6em;
+    }
+    60% {
+      top: -4.8em;
+    }
+    75% {
+      top: -6em;
+    }
+    90% {
+      top: -7.2em;
+    }
+  }
+  .self-img {
+    margin-top: 0px;
+  }
+  .self-img > img {
+    max-width: 20rem;
+    justify-content: center;
+    align-items: center;
+  }
+  .about {
+    flex-direction: column-reverse;
+    margin-top: 10px;
+  }
+  .about-info > .about-content {
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+  .about-info > .performance {
+    flex-direction: column-reverse;
+    justify-content: center;
+    align-items: center;
+  }
+  .skills {
+    width: 100%;
+    margin-left: 20px;
+  }
+  .performance > .tools-softskill {
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+  }
+  .tools {
+    flex: 1;
+  }
+  .soft-skill {
+    flex: 1;
+  }
+  .port-detail {
+    flex-direction: row;
+  }
+}

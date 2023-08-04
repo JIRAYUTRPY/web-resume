@@ -1,4 +1,5 @@
 import "./About.css";
+import "./responsive.css";
 import { summaryState, skills } from "../data/data";
 import { logoSrc } from "../data/img-logo";
 import { useState } from "react";
