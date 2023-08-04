@@ -1,30 +1,45 @@
+import html from "../assets/html.png";
+import htmlColor from "../assets/html-color.png";
+import css from "../assets/css.png";
+import cssColor from "../assets/css-color.png";
+import c from "../assets/c.png";
+import cColor from "../assets/c-color.png";
+import cplus from "../assets/cplus.png";
+import cplusColor from "../assets/cplus-color.png";
+import js from "../assets/javascript.png";
+import jsColor from "../assets/javascript-color.png";
+import react from "../assets/react.png";
+import reactColor from "../assets/react-color.png";
+import python from "../assets/python.png";
+import pythonColor from "../assets/python-color.png";
+
 export const logoSrc = {
   html: {
-    dark: "../src/assets/html.png",
-    color: "../src/assets/html-color.png",
+    dark: html,
+    color: htmlColor,
   },
   css: {
-    dark: "../src/assets/css.png",
-    color: "../src/assets/css-color.png",
+    dark: css,
+    color: cssColor,
   },
   c: {
-    dark: "../src/assets/c.png",
-    color: "../src/assets/c-color.png",
+    dark: c,
+    color: cColor,
   },
   cplus: {
-    dark: "../src/assets/cplus.png",
-    color: "../src/assets/cplus-color.png",
+    dark: cplus,
+    color: cplusColor,
   },
   javascript: {
-    dark: "../src/assets/javascript.png",
-    color: "../src/assets/javascript-color.png",
+    dark: js,
+    color: jsColor,
   },
   react: {
-    dark: "../src/assets/react.png",
-    color: "../src/assets/react-color.png",
+    dark: react,
+    color: reactColor,
   },
   python: {
-    dark: "../src/assets/python.png",
-    color: "../src/assets/python-color.png",
+    dark: python,
+    color: pythonColor,
   },
 };

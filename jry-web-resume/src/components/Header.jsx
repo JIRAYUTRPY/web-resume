@@ -1,6 +1,12 @@
 import "./Header.css";
 import { contactInfo, summaryState } from "../data/data";
 import { useNavigate } from "react-router-dom";
+import mainPic from "../assets/MYPIC.png";
+import mainPicColor from "../assets/MYPIC-COLOR.png";
+import github from "../assets/github.png";
+import md from "../assets/medium.png";
+import ig from "../assets/instagram.png";
+import email from "../assets/email.png";
 function Header() {
   const cumcom = [
     "Bug is love",
@@ -12,20 +18,20 @@ function Header() {
   const navMenu = [
     {
       name: "GITHUB",
-      icon: "../src/assets/github.png",
+      icon: github,
       link: "https://github.com/JIRAYUTRPY",
     },
     {
       name: "MEDIUM",
-      icon: "../src/assets/medium.png",
+      icon: md,
       link: "https://medium.com/@jirayutroodprayun",
     },
     {
       name: "INSAGRAM",
-      icon: "../src/assets/instagram.png",
+      icon: ig,
       link: "https://www.instagram.com/_jirayut/",
     },
-    { name: "EMAIL", icon: "../src/assets/email.png", link: "" },
+    { name: "EMAIL", icon: email, link: "" },
   ];
   return (
     <div className="Header">
@@ -68,13 +74,9 @@ function Header() {
         </div>
         <div className="self-img">
           <img
-            src="../src/assets/MYPIC.png"
-            onMouseOver={(e) =>
-              (e.currentTarget.src = "../src/assets/MYPIC-COLOR.png")
-            }
-            onMouseOut={(e) =>
-              (e.currentTarget.src = "../src/assets/MYPIC.png")
-            }
+            src={mainPic}
+            onMouseOver={(e) => (e.currentTarget.src = mainPicColor)}
+            onMouseOut={(e) => (e.currentTarget.src = mainPic)}
           />
         </div>
         <div className="social-media"></div>
