@@ -1,4 +1,5 @@
 import "./Portfolio.css";
+import "./responsive.css";
 function Protfolio() {
   return (
     <div className="portfolio">

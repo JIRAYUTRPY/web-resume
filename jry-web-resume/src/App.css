@@ -4,3 +4,13 @@
   padding: 2rem;
   text-align: center;
 }
+
+@media only screen and (max-width: 920px) {
+  #root {
+    padding: 0px;
+    width: auto;
+  }
+  body {
+    margin: 0px;
+  }
+}

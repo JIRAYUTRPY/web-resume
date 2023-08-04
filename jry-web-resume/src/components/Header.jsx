@@ -1,4 +1,5 @@
 import "./Header.css";
+import "./responsive.css";
 import { contactInfo, summaryState } from "../data/data";
 import { useNavigate } from "react-router-dom";
 import mainPic from "../assets/MYPIC.png";
