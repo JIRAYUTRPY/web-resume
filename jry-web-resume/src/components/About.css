@@ -1,0 +1,153 @@
+.about {
+  display: flex;
+  justify-content: center;
+  margin-top: 8rem;
+}
+
+.animation {
+  flex: 1;
+  animation: roll 2s infinite;
+}
+
+@keyframes roll {
+  25% {
+    transform: rotate(15deg);
+  }
+  50% {
+    transform: rotate(-15deg);
+  }
+}
+
+.about-info {
+  flex: 2;
+}
+.about-content {
+  text-align: start;
+}
+
+.about-content > h2 {
+  margin: 0px;
+}
+
+.about-content > h1 {
+  margin: 0px;
+}
+
+.about-content > h4 {
+  margin: 0px;
+}
+
+.performance {
+  display: flex;
+  width: 100%;
+}
+
+.performance > .skills {
+  flex: 3;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+
+.skill-group {
+  width: 90%;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  flex-wrap: wrap;
+  margin: 0px;
+  /* background-color: antiquewhite; */
+}
+
+.performance > .tools-softskill {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+
+.skill-child {
+  margin: 10px;
+  width: 130px;
+  padding: 10px;
+  /* background-color: gray; */
+  border: solid 1px gray;
+  cursor: pointer;
+  /* display: flex; */
+  /* flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start; */
+}
+
+.skill-child:hover {
+  background-color: #9288f8;
+  border: solid 1px #9288f8;
+}
+
+.skill-child > img {
+  width: 50px;
+  border: 0px;
+  border-radius: 0px;
+  /* background-color: white; */
+  /* background-color: antiquewhite; */
+}
+
+.animation {
+  align-self: center;
+}
+
+.animation > img {
+  width: 300px;
+  transition: transform 0.2s;
+}
+
+.animation > img:hover {
+  transform: scale(1.5);
+}
+
+.skill-child > .skill-child-detail {
+  position: relative;
+  width: 100%;
+  /* background-color: azure; */
+}
+
+.skill-child-detail > h5 {
+  /* background-color: aqua; */
+  position: relative;
+  font-size: 18px;
+  margin: 0px;
+  margin-top: 15px;
+}
+
+.tool-child > h5 {
+  margin: 0px;
+  margin-top: 10px;
+}
+
+.tools-softskill {
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+
+.tools,
+.soft-skill {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+.soft-skill {
+  margin-top: 30px;
+}
+.soft-skill > h2 {
+  margin: 0px;
+  margin-top: 10px;
+}
+
+.soft-child > h5 {
+  margin: 0px;
+  margin-top: 10px;
+}

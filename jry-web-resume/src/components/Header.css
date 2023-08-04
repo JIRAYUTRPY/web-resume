@@ -1,0 +1,134 @@
+.Header {
+  height: 100%;
+}
+.brand {
+  font-size: 3rem;
+  font-weight: bolder;
+}
+
+.brand > span {
+  color: #9288f8;
+  background-color: #9288f8;
+  border: solid 1px #9288f8;
+  height: 50%;
+  width: 100%;
+}
+
+.nav {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  /* background-color: azure; */
+}
+
+.nav-menu {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  align-items: center;
+  width: 45%;
+  height: 80px;
+}
+
+.nav-button {
+  margin-left: 5rem;
+  font-size: 1.2rem;
+  cursor: pointer;
+  transition: 0.5s;
+}
+
+.nav-button:hover {
+  color: #9288f8;
+  font-size: 1.5rem;
+}
+.nav-button > img {
+  width: 26px;
+}
+.landing-content {
+  display: flex;
+  width: 100%;
+  justify-content: space-around;
+  align-items: center;
+  margin-top: 5rem;
+  /* background-color: aquamarine; */
+}
+
+.content {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  margin-right: 2rem;
+  width: 100%;
+  /* height: 100%;
+    width: 100%; */
+  /* background-color: aliceblue; */
+}
+
+.content h2 {
+  margin: 0px;
+}
+.content h1 {
+  margin: 0px;
+}
+
+.content h4 {
+  margin: 0px;
+  margin-top: 0.5rem;
+  text-align: left;
+  margin-bottom: 5rem;
+}
+.content > h1 {
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
+.self-img {
+  flex: 1;
+  /* background-color: violet; */
+}
+
+.rotation-text {
+  height: 3.5rem;
+  line-height: 1.2em;
+  position: relative;
+  width: 100%;
+  overflow: hidden;
+  text-align: start;
+  color: #9288f8;
+  margin-top: 50px;
+}
+
+.rotation-text > span {
+  position: absolute;
+  top: 0;
+  animation: slide 10s infinite;
+}
+
+@keyframes slide {
+  0% {
+    top: 0;
+  }
+  25% {
+    top: -1.2em;
+  }
+  50% {
+    top: -2.4em;
+  }
+  75% {
+    top: -3.6em;
+  }
+}
+
+.self-img > img:hover {
+  transform: scale(1.1);
+}
+
+.self-img img {
+  height: 32rem;
+  border: 0;
+  border-radius: 30%;
+  transition: transform 0.2s;
+}
