@@ -36,6 +36,7 @@
   font-size: 1.2rem;
   cursor: pointer;
   transition: 0.5s;
+  text-decoration: none;
 }
 
 .nav-button:hover {

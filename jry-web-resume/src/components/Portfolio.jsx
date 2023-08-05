@@ -25,11 +25,24 @@ function Protfolio() {
         <div className="port-child">
           <div className="show-detail">
             <img src="http://dummyimage.com/350x350.png/dddddd/000000" />
-            <h3>web application</h3>
-            <h4>JavaScirpt, React, CSS, HTML</h4>
+            <h3>Controller firmware</h3>
+            <h4>Texas insrutment, HALCoGen</h4>
           </div>
           <div className="main-detail">
-            <h2>PROJECT TITLE</h2>
+            <h2>Controller firmware</h2>
+            <h4>
+              I modifly control firmware for logistics transportation in
+              factory. Just change device control and Add-on function into
+              system as datalogger, connected with wifi
+              <br />
+              <br />
+              In my responsibility
+              <br />
+              - firmware on TMS570
+              <br />
+              - wifi protocol
+              <br />- SDCard driver
+            </h4>
           </div>
         </div>
         <div className="port-child">

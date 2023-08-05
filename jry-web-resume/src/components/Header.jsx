@@ -32,7 +32,11 @@ function Header() {
       icon: ig,
       link: "https://www.instagram.com/_jirayut/",
     },
-    { name: "EMAIL", icon: email, link: "" },
+    {
+      name: "EMAIL",
+      icon: email,
+      link: "https://mail.google.com/mail/?view=cm&to=jirayutrpy@hotmail.com",
+    },
   ];
   return (
     <div className="Header">
@@ -43,14 +47,15 @@ function Header() {
         <div className="nav-menu">
           {navMenu.map((value, index) => {
             return (
-              <div
+              <a
                 className="nav-button"
                 key={index}
-                onClick={() => window.location.replace(value.link)}
+                href={value.link}
+                // onClick={() => window.location.replace(value.link)}
               >
                 <img src={value.icon} />
                 {value.name}
-              </div>
+              </a>
             );
           })}
         </div>
