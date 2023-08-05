@@ -7,7 +7,7 @@ export const contactInfo = {
 
 export const summaryState = {
   mainContent:
-    "I'm `FOLK` that my nickname. Now I'm a Developer trainee in TechUp. Before I come to be full-stack, I'm firmware engineer. But it's too hard to learn every my mistake is money. then i move in full-stack developer.",
+    "I'm `FOLK` that my nickname. Now I'm a Developer Training in TechUp. Before I come to be full-stack, I'm firmware engineer. But it's too hard to learn every my mistake is money. then i move in full-stack developer.",
   landingSection: `Someday I woke up in the morning then I made breakfast and buy some coffee. After that I sitdown on table and Open VSCode for coding. Yes I remember about code that I written in yesterdays.`,
 };
 
