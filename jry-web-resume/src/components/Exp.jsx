@@ -1,3 +1,4 @@
+import "./Exp.css";
 function Exp() {
   return (
     <div className="exp">
@@ -6,7 +7,8 @@ function Exp() {
         <div className="card">
           <div className="card-child">
             <h2>
-              Full-Stack Developer (in training) - TechUp{" "}
+              Full-Stack Developer (in training) -
+              <a href="https://www.techupth.com/">TechUp</a>{" "}
               <span>2023-present</span>
             </h2>
             <h3>
@@ -32,7 +34,9 @@ function Exp() {
           </div>
           <div className="card-child">
             <h2>
-              PLC Programer (intern) - Sat Solution <span>2022-2023</span>
+              PLC Programer (intern) -{" "}
+              <a href="http://www.sat-solutions.com/">Sat Solutions</a>{" "}
+              <span>2022-2023</span>
             </h2>
             <h3>
               After I Interested in IoT for a period of time. I met
