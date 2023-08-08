@@ -1,5 +1,7 @@
 import "./Portfolio.css";
 import "./responsive.css";
+import ticTacToe from "../assets/tic-tac-toe.png";
+import arduino from "../assets/arduino.png";
 function Protfolio() {
   return (
     <div className="portfolio">
@@ -12,7 +14,7 @@ function Protfolio() {
       <div className="port-detail">
         <div className="port-child">
           <div className="show-detail">
-            <img src="http://dummyimage.com/350x350.png/dddddd/000000" />
+            <img src={arduino} style={{ width: "350px", height: "350px" }} />
             <h3>ECU Reader</h3>
             <h4>Arduino, Microcontroller, C++</h4>
           </div>
@@ -22,11 +24,20 @@ function Protfolio() {
               I used arduino to read ECU with CAN device as OBD-II Port, Also
               CAN protocol.
             </h4>
+            <a
+              href="https://github.com/JIRAYUTRPY/DemoArduino/blob/master/CAN-Reading.ino"
+              style={{ textDecoration: "none" }}
+            >
+              Github repo
+            </a>
           </div>
         </div>
         <div className="port-child">
           <div className="show-detail">
-            <img src="http://dummyimage.com/350x350.png/dddddd/000000" />
+            <img
+              src="http://dummyimage.com/350x350.png/dddddd/000000"
+              style={{ width: "350px", height: "350px" }}
+            />
             <h3>Controller firmware</h3>
             <h4>Texas insrutment, HALCoGen</h4>
           </div>
@@ -49,13 +60,18 @@ function Protfolio() {
         </div>
         <div className="port-child">
           <div className="show-detail">
-            <img src="http://dummyimage.com/350x350.png/dddddd/000000" />
+            <img src={ticTacToe} style={{ width: "350px", height: "350px" }} />
             <h3>Web Application</h3>
             <h4>React, JavaScript</h4>
           </div>
           <div className="main-detail">
             <h2>
-              <a>Find a book</a>
+              <a
+                href="https://tic-tic-toe-jry.vercel.app/"
+                style={{ textDecoration: "none" }}
+              >
+                TIC-TAC-TOE
+              </a>
             </h2>
           </div>
         </div>

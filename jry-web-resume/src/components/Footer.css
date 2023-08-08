@@ -1,8 +1,17 @@
 .footer {
   width: 100%;
+  margin-top: 30px;
+  overflow: hidden;
+}
+.email {
+  font-size: 2rem;
 }
 
 .background {
+  background-color: #9288f8;
+  color: #9288f8;
+  /* height: 100vh;
+  width: 100vw; */
 }
 
 .detail {
