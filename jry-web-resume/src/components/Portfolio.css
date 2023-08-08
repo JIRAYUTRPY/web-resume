@@ -11,7 +11,7 @@
   display: flex;
   align-items: flex-start;
   justify-content: space-between;
-  overflow: hidden;
+  overflow-y: hidden;
 }
 
 .port-child {

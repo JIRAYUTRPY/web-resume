@@ -90,23 +90,48 @@
     flex-direction: column-reverse;
     justify-content: center;
     align-items: center;
+    text-align: center;
   }
   .skills {
     width: 100%;
-    margin-left: 20px;
+    text-align: center;
+    align-items: center;
+  }
+  .skills > h2 {
+    text-align: center;
+    align-items: center;
   }
   .performance > .tools-softskill {
+    width: auto;
+    display: flex;
     flex-direction: row;
     align-items: center;
     justify-content: center;
   }
   .tools {
-    flex: 1;
+    margin-right: 20px;
   }
   .soft-skill {
-    flex: 1;
+    margin-left: 20px;
+  }
+  .skill-group {
+    width: 100%;
+    display: flex;
   }
   .port-detail {
     flex-direction: row;
+  }
+}
+@media only screen and (max-width: 400px) {
+  /* .skill-child {
+    width: 100px;
+    padding: 0px;
+  } */
+  .skill-child-detail > h5 {
+    /* background-color: aqua; */
+    position: relative;
+    font-size: 6px;
+    margin: 0px;
+    margin-top: 15px;
   }
 }
