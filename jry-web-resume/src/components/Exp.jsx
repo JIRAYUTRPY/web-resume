@@ -3,7 +3,9 @@ function Exp() {
   return (
     <div className="exp">
       <div className="exp-detail">
-        <h1>Experience</h1>
+        <h1>
+          <span className="logo">.</span>Experience
+        </h1>
         <div className="card">
           <div className="card-child">
             <h2>

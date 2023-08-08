@@ -6,14 +6,6 @@
   font-weight: bolder;
 }
 
-.brand > span {
-  color: #9288f8;
-  background-color: #9288f8;
-  border: solid 1px #9288f8;
-  height: 50%;
-  width: 100%;
-}
-
 .nav {
   display: flex;
   flex-direction: row;

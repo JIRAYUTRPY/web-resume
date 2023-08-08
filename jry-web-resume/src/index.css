@@ -20,3 +20,10 @@
   -moz-osx-font-smoothing: grayscale;
   -webkit-text-size-adjust: 100%;
 }
+.logo {
+  color: #9288f8;
+  background-color: #9288f8;
+  border: solid 1px #9288f8;
+  height: 50%;
+  width: 100%;
+}

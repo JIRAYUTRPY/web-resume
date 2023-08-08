@@ -19,7 +19,9 @@ function About() {
       </div>
       <div className="about-info">
         <div className="about-content">
-          <h2>About</h2>
+          <h2>
+            <span className="logo">.</span>About
+          </h2>
           <h1>journey</h1>
           <h3>{summaryState.mainContent}</h3>
         </div>

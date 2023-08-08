@@ -42,7 +42,7 @@ function Header() {
     <div className="Header">
       <div className="nav">
         <div className="brand">
-          <span>.</span>JIRAYUT
+          <span className="logo">.</span>JIRAYUT
         </div>
         <div className="nav-menu">
           {navMenu.map((value, index) => {
