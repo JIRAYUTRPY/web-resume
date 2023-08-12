@@ -51,8 +51,6 @@
 }
 
 .skill-group {
-  display: flex;
-  flex-wrap: wrap;
   margin: 0px;
   /* background-color: antiquewhite; */
 }

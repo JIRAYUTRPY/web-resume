@@ -113,13 +113,22 @@
   }
   .soft-skill {
     margin-left: 20px;
+    justify-content: space-between;
   }
   .skill-group {
     width: 100%;
     display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
   }
   .port-detail {
     flex-direction: row;
+  }
+  .skills > h2 {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
   }
 }
 @media only screen and (max-width: 400px) {
@@ -133,5 +142,13 @@
     font-size: 6px;
     margin: 0px;
     margin-top: 15px;
+  }
+}
+
+@media only screen and (min-width: 800px) {
+  .skill-group {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
   }
 }
