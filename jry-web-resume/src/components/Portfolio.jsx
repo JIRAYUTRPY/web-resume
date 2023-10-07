@@ -1,6 +1,6 @@
 import "./Portfolio.css";
 import "./responsive.css";
-import ticTacToe from "../assets/tic-tac-toe.png";
+import courseFlow from "../assets/CourseFlow.png";
 import arduino from "../assets/arduino.png";
 function Protfolio() {
   return (
@@ -60,12 +60,18 @@ function Protfolio() {
         </div>
         <div className="port-child">
           <div className="show-detail">
-            <img src={ticTacToe} style={{ width: "350px", height: "350px" }} />
+            <img src={courseFlow} style={{ width: "350px", height: "350px" }} />
             <h3>Web Application</h3>
             <h4>React, JavaScript</h4>
           </div>
           <div className="main-detail">
             <h2>
+              <a
+                href="https://github.com/JIRAYUTRPY/DemoCourseFlow"
+                style={{ textDecoration: "none" }}
+              >
+                CourseFlow
+              </a>
               <a
                 href="https://tic-tic-toe-jry.vercel.app/"
                 style={{ textDecoration: "none" }}
