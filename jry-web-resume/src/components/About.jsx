@@ -1,8 +1,8 @@
 import "./About.css";
 import "./responsive.css";
-import { summaryState, skills } from "../data/data";
-import { logoSrc } from "../data/img-logo";
-import { useState } from "react";
+import { summaryState, skills } from "../data/data.js";
+import { logoSrc } from "../data/img-logo.js";
+import { useEffect, useState } from "react";
 function About() {
   const [icon, setIcon] = useState(logoSrc.react.color);
   function changeIcon(event) {
@@ -10,8 +10,12 @@ function About() {
     const path = skills.programming[index];
     // console.log(path);
     // const path = logoSrc[event.target.value];
+    // console.log(logoSrc);
     setIcon(logoSrc[path].color);
   }
+  // useEffect(() => {
+  //   console.log(logoSrc);
+  // });
   return (
     <div className="about">
       <div className="animation">
@@ -30,6 +34,7 @@ function About() {
             <h2>Skills</h2>
             <div className="skill-group">
               {skills.programming.map((value, index) => {
+                console.log(value);
                 return (
                   <div
                     className="skill-child"

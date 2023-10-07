@@ -18,6 +18,7 @@ export const workExp = {
     microcontroller: ["ECU Reader", "Gas Station", "Liquid Dispensing"],
     website: null,
   },
+  inTrainner: ["Full Stack Dev", "E learning platfrom"],
 };
 
 export const education = {
@@ -32,7 +33,17 @@ export const education = {
 };
 
 export const skills = {
-  programming: ["html", "css", "javascript", "react", "c", "cplus", "python"],
+  programming: [
+    "html",
+    "css",
+    "javascript",
+    "react",
+    // "c",
+    // "cplus",
+    // "python",
+    "postgres",
+    "node",
+  ],
   tools: ["Git (Version Control)", "Microcontroller IDE"],
   knowlagde: {
     microcontroller: ["Arduino", "Texas Insrtument", "STM", "ESP"],

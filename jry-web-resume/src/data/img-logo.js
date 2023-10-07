@@ -12,7 +12,10 @@ import react from "../assets/react.png";
 import reactColor from "../assets/react-color.png";
 import python from "../assets/python.png";
 import pythonColor from "../assets/python-color.png";
-
+import postgres from "../assets/postgre.png";
+import postgresColor from "../assets/postgre-color.png";
+import node from "../assets/node-js.png";
+import nodeColor from "../assets/node-js-corlor.png";
 export const logoSrc = {
   html: {
     dark: html,
@@ -41,5 +44,13 @@ export const logoSrc = {
   python: {
     dark: python,
     color: pythonColor,
+  },
+  node: {
+    dark: node,
+    color: nodeColor,
+  },
+  postgres: {
+    dark: postgres,
+    color: postgresColor,
   },
 };
