@@ -60,7 +60,12 @@ function Protfolio() {
         </div>
         <div className="port-child">
           <div className="show-detail">
-            <img src={courseFlow} style={{ width: "350px", height: "350px" }} />
+            <div style={{ width: "350px", height: "350px" }}>
+              <img
+                src={courseFlow}
+                style={{ width: "350px", paddingTop: "150px" }}
+              />
+            </div>
             <h3>Web Application</h3>
             <h4>React, JavaScript</h4>
           </div>
@@ -70,8 +75,9 @@ function Protfolio() {
                 href="https://github.com/JIRAYUTRPY/DemoCourseFlow"
                 style={{ textDecoration: "none" }}
               >
-                CourseFlow
+                CourseFlow Code Demo
               </a>
+              <br />
               <a
                 href="https://tic-tic-toe-jry.vercel.app/"
                 style={{ textDecoration: "none" }}
