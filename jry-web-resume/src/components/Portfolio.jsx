@@ -72,10 +72,10 @@ function Protfolio() {
           <div className="main-detail">
             <h2>
               <a
-                href="https://github.com/JIRAYUTRPY/DemoCourseFlow"
+                href="https://demo-course-flow.vercel.app/"
                 style={{ textDecoration: "none" }}
               >
-                CourseFlow Code Demo
+                CourseFlow Demo
               </a>
               <br />
               <a
