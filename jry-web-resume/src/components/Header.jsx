@@ -25,7 +25,7 @@ function Header() {
     {
       name: "MEDIUM",
       icon: md,
-      link: "https://medium.com/@jirayutroodprayun",
+      link: "https://medium.com/@jirayutrpy",
     },
     {
       name: "INSAGRAM",
