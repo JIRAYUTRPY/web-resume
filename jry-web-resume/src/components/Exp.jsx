@@ -9,9 +9,23 @@ function Exp() {
         <div className="card">
           <div className="card-child">
             <h2>
+              Full-Stack Developer -
+              <a href="https://www.globish.co.th/">Globish</a>{" "}
+              <span>2023 Dec-present</span>
+            </h2>
+            <h3>
+              Now I'm started new position at Globish Academia, I have been
+              learing about NuxtJs, NestJs and Kubernetes etc., I'm feel very
+              fun because in globish had a lot of activity. and also assist me
+              and proved many stuff about myself. In my responsibility is
+              service and developer globish pattform.
+            </h3>
+          </div>
+          <div className="card-child">
+            <h2>
               Full-Stack Developer (in training) -
               <a href="https://www.techupth.com/">TechUp</a>{" "}
-              <span>2023-present</span>
+              <span>2023 July - 2023 Oct</span>
             </h2>
             <h3>
               I want to move in Dev industrial. it's happen because my passion,
